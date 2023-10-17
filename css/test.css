@@ -1,0 +1,41 @@
+@charset "utf-8"
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* 공통 스타일 */
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.section1, .section2, .section3 {
+  opacity: 0; /* 초기값을 0으로 설정합니다. */
+  transition: opacity 0.5s; /* 부드러운 전환 효과를 추가합니다. */
+}
+
+/* 각 섹션에 스타일 추가 */
+.section1 {
+  background-color: #ffcc00;
+}
+
+.section2 {
+  background-color: #ff6600;
+}
+
+.section3 {
+  background-color: #ff0033;
+}
+
+/* 핀된 항목에 스타일 추가 */
+.gsap-pin {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  background-color: #fff;
+  color: #333;
+}

@@ -1,0 +1,69 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+address, em, i {
+  font-style: normal;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* 섹션 1의 배경색 */
+#section1 {
+  background-color: #FF5733; /* 예시로 빨간색 */
+}
+
+/* 섹션 2의 배경색 */
+#section2 {
+  background-color: #3498db; /* 예시로 파란색 */
+}
+
+/* 섹션 3의 배경색 */
+#section3 {
+  background-color: #27ae60; /* 예시로 초록색 */
+}
+
+.section {
+  height: 100vh; /* 섹션 높이 설정 */
+}
+
+.content {
+  opacity: 1; /* 초기 투명도 설정 */
+  transition: opacity 0.3s ease; /* 트랜지션 효과 설정 */
+}
